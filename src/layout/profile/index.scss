@@ -1,0 +1,37 @@
+.profile-screen {
+  min-width: 100vw;
+  min-height: 100vh;
+  display: flex;
+
+  &__back {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 64px;
+    min-height: 100%;
+    background: $back-bg;
+    border-right: 1px solid $border;
+    cursor: pointer;
+
+    &-btn {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 28px;
+      height: 28px;
+      background-color: $primary-color;
+      border-radius: 50%;
+      & svg {
+        width: 13px;
+      }
+    }
+  }
+
+  &__content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: calc(100% - 64px);
+  }
+}
