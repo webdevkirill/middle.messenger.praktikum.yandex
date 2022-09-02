@@ -1,0 +1,14 @@
+.text-with-label {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid $border;
+  padding: 10px 0;
+  font-size: 13px;
+  line-height: 13px;
+
+  &__text {
+    color: $text-secondary-color;
+  }
+}

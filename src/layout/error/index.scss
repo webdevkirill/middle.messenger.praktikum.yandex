@@ -1,0 +1,18 @@
+.error-screen {
+  min-width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  &__text {
+    margin-bottom: 70px;
+  }
+
+  &__link {
+    color: $primary-color;
+    font-size: 11px;
+    line-height: 11px;
+  }
+}

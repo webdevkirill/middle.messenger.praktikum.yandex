@@ -1,0 +1,16 @@
+.login-screen {
+  min-width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &__card {
+    min-width: 340px;
+    padding: 50px 30px 18px;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+}

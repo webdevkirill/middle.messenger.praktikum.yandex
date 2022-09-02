@@ -1,0 +1,13 @@
+{{#>login-layout}}
+  <div class='login-form'>
+    {{> title text="Вход" titleClassName="login-form__title"}}
+    <div class='login-form__input'>
+      {{> input label="Логин" id="login" name="login" placeholder='Логин' }}
+    </div>
+    {{> input label="Пароль" type="password" id="password" name="password" placeholder="Пароль" }}
+  </div>
+  <div>
+    {{> button text="Авторизоваться" }}
+    {{> button secondary=true text="Нет аккаунта?" }}
+  </div>
+{{/login-layout}}
