@@ -1,0 +1,11 @@
+.registration-form {
+  width: 100%;
+  min-height: 500px;
+  margin-bottom: 16px;
+  &__title {
+    margin-bottom: 40px;
+  }
+  &__input {
+    margin-bottom: 16px;
+  }
+}

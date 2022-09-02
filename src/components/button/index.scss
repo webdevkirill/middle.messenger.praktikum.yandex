@@ -1,0 +1,21 @@
+.button {
+  min-width: 100%;
+  padding: 12px 70px;
+  background-color: $primary-color;
+  color: $secondary-color;
+  border-radius: 8px;
+  font-size: 13px;
+  line-height: 13px;
+  font-weight: 500;
+  cursor: pointer;
+  &_secondary {
+    padding: 12px 0;
+    background-color: transparent;
+    color: $primary-color;
+  }
+  &_error {
+    padding: 12px 0;
+    background-color: transparent;
+    color: $error;
+  }
+}
