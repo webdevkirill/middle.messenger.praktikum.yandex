@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "outDir": "dist",
+    "target": "esnext",
+    "declaration": false,
+    "module": "esnext",
+    "strictNullChecks": true,
+    "sourceMap": true,
+    "strict": true,
+    "typeRoots": ["node_modules/@types", "typings/app.d.ts", "typings/hbs.d.ts"],
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "skipLibCheck": true,
+    "rootDir": "./src",
+    "baseUrl": "./src"
+  },
+  "includes": ["**/*.ts?"]
+}

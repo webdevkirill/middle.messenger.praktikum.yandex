@@ -1,0 +1,37 @@
+@import 'base/styles/variables';
+
+.profile-screen {
+  font-size: 13px;
+  line-height: 13px;
+
+  &__avatar {
+    margin-bottom: 20px;
+  }
+
+  &__title {
+    font-size: 16px;
+    line-height: 16px;
+    margin-bottom: 60px;
+  }
+
+  &__info {
+    min-width: 510px;
+  }
+
+  &__links {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__link {
+    color: $primary-color;
+    padding: 10px 0;
+    border-bottom: 1px solid $border;
+  }
+
+  &__exit {
+    color: $error;
+    padding: 10px 0;
+  }
+}
