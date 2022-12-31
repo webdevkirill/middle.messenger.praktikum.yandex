@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Чат для курса",
   "scripts": {
-    "start": "parcel src/index.html --no-cache && node server.js",
+    "start": "parcel build src/index.html && node server.js",
     "dev": "parcel src/index.html",
     "build": "parcel build index.html",
     "stylelint": "npx stylelint \"**/*.s?ss\"",
