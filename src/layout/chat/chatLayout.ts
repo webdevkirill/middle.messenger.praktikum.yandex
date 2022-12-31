@@ -1,5 +1,7 @@
 import Block from 'core/Block';
 
+import './index.scss';
+
 interface IChatLayoutProps {}
 
 export class ChatLayout extends Block {
@@ -10,8 +12,6 @@ export class ChatLayout extends Block {
   }
 
   protected render(): string {
-    console.log('render');
-
     return `
       <div class='chat-screen'>
         <div class='chat-screen__menu'>

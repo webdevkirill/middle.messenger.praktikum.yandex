@@ -1,0 +1,40 @@
+@import 'base/styles/variables';
+
+.bottom-panel {
+  width: 100%;
+  padding-top: 10px;
+  border-top: 1px solid $border;
+  display: flex;
+  align-items: center;
+
+  &__attach {
+    margin-right: 10px;
+  }
+
+  &__message {
+    flex: 1;
+    margin-right: 10px;
+  }
+
+  &__input {
+    background: #efefef;
+    border-radius: 30px;
+    padding: 10px 20px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 12px;
+    border-bottom: none;
+    position: relative;
+  }
+
+  &__button {
+    width: 28px;
+    height: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $primary-color;
+    color: $bg-color;
+    border-radius: 50%;
+  }
+}

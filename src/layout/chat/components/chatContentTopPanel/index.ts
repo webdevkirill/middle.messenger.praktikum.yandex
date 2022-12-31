@@ -1,0 +1,1 @@
+export { ChatContentTopPanel } from './chatContentTopPanel';

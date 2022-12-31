@@ -13,8 +13,12 @@ export class ChatContent extends Block {
 
   protected render(): string {
     return `
-      <div class='content'>
-        Content
+      <div class='chat-content'>
+        {{{ ChatContentTopPanel name="Вадим" }}}
+        <div class='chat-content__messages'>
+          {{{ ChatContentMessages }}}
+        </div>
+        {{{ ChatContentBottomPanel }}}
       </div>
     `;
   }

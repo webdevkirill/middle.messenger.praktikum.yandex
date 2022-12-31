@@ -220,7 +220,8 @@ export default class Block<P = any> {
       /**
        * Ищем элемент layout-а, куда вставлять детей
        */
-      const layoutContent = content?.querySelector('[data-layout="1"]');
+
+      const layoutContent = content.dataset['layout'] ? content : content?.querySelector('[data-layout="1"]');
 
       if (layoutContent && stubChildren.length) {
         layoutContent.append(...stubChildren);

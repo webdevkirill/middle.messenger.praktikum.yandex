@@ -6,3 +6,4 @@ export { Card } from './card';
 export { Input } from './input';
 export { TextWithLabel } from './text-with-label';
 export { Title } from './title';
+export { Scrollbar } from './scrollbar';

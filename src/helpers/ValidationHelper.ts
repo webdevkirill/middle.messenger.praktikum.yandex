@@ -59,4 +59,12 @@ export class ValidationHelper {
 
     return '';
   };
+
+  static validateMessage = (value: string) => {
+    if (!value) {
+      return 'Сообщение не должно быть пустым';
+    }
+
+    return '';
+  };
 }
