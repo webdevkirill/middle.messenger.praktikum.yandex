@@ -1,3 +1,5 @@
+@import 'base/styles/variables';
+
 .button {
   min-width: 100%;
   padding: 12px 70px;
@@ -8,14 +10,34 @@
   line-height: 13px;
   font-weight: 500;
   cursor: pointer;
+
   &_secondary {
     padding: 12px 0;
     background-color: transparent;
     color: $primary-color;
   }
+
   &_error {
     padding: 12px 0;
     background-color: transparent;
     color: $error;
+  }
+
+  &_link {
+    font-size: 13px;
+    line-height: 13px;
+    color: $primary-color;
+    background-color: transparent;
+    padding: 10px 0;
+    text-align: left;
+    border-radius: 0;
+  }
+
+  &_link-error {
+    color: $error;
+  }
+
+  &_with-border {
+    border-bottom: 1px solid $border;
   }
 }

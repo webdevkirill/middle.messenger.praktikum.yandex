@@ -1,10 +1,14 @@
+@import '../../base/styles/variables';
+
 .login-form {
   width: 100%;
-  min-height: 350px;
   margin-bottom: 16px;
+  min-height: 350px;
+
   &__title {
     margin-bottom: 40px;
   }
+
   &__input {
     margin-bottom: 16px;
   }

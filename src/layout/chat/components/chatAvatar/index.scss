@@ -1,0 +1,16 @@
+@import 'base/styles/variables';
+
+.chat-avatar {
+  background-color: #efefef;
+  border-radius: 50%;
+
+  &_large {
+    width: 47px;
+    height: 47px;
+  }
+
+  &_medium {
+    width: 34px;
+    height: 34px;
+  }
+ }

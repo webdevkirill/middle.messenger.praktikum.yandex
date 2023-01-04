@@ -1,3 +1,5 @@
+@import '../../base/styles/variables';
+
 .login-screen {
   min-width: 100vw;
   min-height: 100vh;
@@ -6,7 +8,8 @@
   align-items: center;
 
   &__card {
-    min-width: 340px;
+    width: 100%;
+    max-width: 340px;
     padding: 50px 30px 18px;
     display: inline-flex;
     flex-direction: column;

@@ -1,0 +1,46 @@
+@import 'base/styles/variables';
+
+.menu {
+  padding: 20px 10px 0;
+  background-color: $back-bg;
+  border-right: 1px solid $border;
+  height: 100vh;
+
+  &__profile-link {
+    display: block;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 12px;
+    color: $text-secondary-color;
+    text-align: right;
+    margin-bottom: 20px;
+  }
+
+  &__search-input {
+    $selector: &;
+
+    background: #efefef;
+    border-radius: 5px;
+    padding: 10px 35px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 12px;
+    border-bottom: none;
+    position: relative;
+
+    &-wrapper {
+      position: relative;
+      margin-bottom: 15px;
+    }
+
+    &-label {
+      position: absolute;
+      display: flex;
+      align-items: center;
+      z-index: 2;
+      left: calc(14px);
+      top: calc(50%);
+      transform: translate(0, -50%); 
+    }
+  }
+}

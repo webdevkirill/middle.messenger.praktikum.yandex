@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "outDir": "dist",
+    "target": "ESNext",
+    "declaration": false,
+    "module": "commonjs",
+    "strict": true,
+    "typeRoots": ["node_modules/@types", "typings/app.d.ts", "typings/hbs.d.ts"],
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "skipLibCheck": true,
+    "rootDir": "./src",
+    "baseUrl": "./src",
+    "noImplicitAny": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "sourceMap": true,
+    "strictNullChecks": true
+  },
+  "includes": ["**/*.ts?"]
+}

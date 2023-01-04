@@ -1,0 +1,1 @@
+export { ChatEmptyContent } from './chatEmptyContent';

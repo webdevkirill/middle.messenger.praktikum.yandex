@@ -1,0 +1,16 @@
+@import 'base/styles/variables';
+
+.profile-edit-info {
+  width: 100%;
+  max-width: 500px;
+  min-height: 500px;
+  margin-bottom: 16px;
+
+  &__title {
+    margin-bottom: 40px;
+  }
+
+  &__input {
+    margin-bottom: 16px;
+  }
+}

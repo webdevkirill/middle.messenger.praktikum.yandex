@@ -1,5 +1,8 @@
+@import '../../base/styles/variables';
+
 .avatar-upload {
   $selector: &;
+
   display: flex;
   justify-content: center;
   align-items: center;

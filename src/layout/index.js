@@ -1,4 +1,0 @@
-import './login';
-import './chat';
-import './error';
-import './profile';
