@@ -10,7 +10,12 @@
     "allowSyntheticDefaultImports": true,
     "skipLibCheck": true,
     "rootDir": "./src",
-    "baseUrl": "./src"
+    "baseUrl": "./src",
+    "noImplicitAny": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "sourceMap": true,
+    "strictNullChecks": true
   },
   "includes": ["**/*.ts?"]
 }
