@@ -5,7 +5,7 @@
   "scripts": {
     "start": "parcel build src/index.html && node server.js",
     "dev": "parcel src/index.html",
-    "build": "parcel build index.html",
+    "build": "parcel build src/index.html",
     "stylelint": "npx stylelint \"**/*.s?ss\"",
     "stylelint:fix": "npx stylelint \"**/*.s?ss\" --fix"
   },
